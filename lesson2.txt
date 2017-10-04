@@ -1,0 +1,3 @@
+O que acontece ao iniciar um repositório? Por que você precisa fazer isso?
+
+Ao iniciar um repositório você cria um arquivo .git que será utilizado para criar um metadados. Esse arquivo precisa ser criado para armazenar as informações dos commits a serem criados.
