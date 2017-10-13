@@ -17,3 +17,17 @@ Toda vez que você quiser fazer alterações que independem do programa original. E
 Como os diagramas ajudam a visualizar a estrutura de branches?
 
 Os diagramas permitem vizualizar a lógica de alterações incluidas pelos branches e permite descobrir onde é possível criar um commit desanexado que pode se transformar num novo branch. Os diagramas são uma forma visual e rápida de ter um status do desenvolvimento do programa.
+
+Qual é o resultado da mesclagem de dois branches? Por que o representamos no diagrama dessa forma?
+
+O resultado da mesclagem de dois branches é um arquivo que combina as modificações realizadas em ambos os branches seguindo a lógica. 
+- Se uma linha (modificação) está presente nos dois arquivos ele permanecerá no arquivo final.
+- Se uma linha (modificação) não está presente em um dos arquivos e estava presente no original desse arquivo anterior, a linha será deletada.
+- Se uma linha (modificação) está presente em um dos arquivos e não estava presente no original desse arquivo anterior, a linha será adicionada.
+--> Reprensentamos a mesclagem como um ponto unindo o final dos dois branches com setas apontadas para os dois pontos dos branches. Representamos dessa forma para mostrar que dois branches se transformaram em um e que esse novo commit tem os pais indicados no diagrama.
+
+git log --graph --oneline
+
+Quais são os prós e contras da mesclagem automática do Git v. sempre fazer mesclagens manualmente?
+
+A mesclagem aumatica do git permite economizar tempo e salvar rapidamente alterações entre os commits, as mesclagem manuais entretanto permitem um melhor "controle" do código e o que permite que se faça alterações dentro do código e não apenas levando em consideração uma comparação automática entre linhas de código.
