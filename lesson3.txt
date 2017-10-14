@@ -1,0 +1,5 @@
+Quando gostaria de usar um repositório remoto em vez de manter o trabalho local?
+
+É interessante utilizar diretamente o repositório remoto em duas situações: 
+1 - Quando estiver utilizando outro computador ou dispositivo para fazer alterações nos arquivos.
+2 - Quando se esta trabalhando num arquivo disponível para colaboração. Esses arquivos precisam estar sempre disponíveis para todos os contribuidores e não somente armazenado em um computador.
